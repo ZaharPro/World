@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane focusTraversable="true" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane focusTraversable="true" onKeyPressed="#pressed" onKeyReleased="#released" onMouseClicked="#mouse">
+         <children>
+            <Canvas fx:id="canvas" focusTraversable="true" height="720.0" width="900.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
